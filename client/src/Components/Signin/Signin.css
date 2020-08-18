@@ -1,0 +1,46 @@
+input {
+    font-size: 1rem;
+    text-indent: .8rem;
+    padding: .8rem 0;
+    width: 90%;
+    border: 1px solid #dddce0;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+label {
+    color: #484848;
+    font-weight: 700;
+}
+
+.signin { 
+    width: 150px;
+    height: 40px;
+    background-color: #3069f0;
+    cursor: pointer;
+    border: none;
+    color: white; 
+    font-size: medium;
+    margin: 10px 0 40px 0;
+    border-radius: 2px;
+}
+
+#forgot {
+    text-decoration: none;
+    color: #2e4a99;
+    font-weight: bold;
+}
+
+#do-not-have {
+    margin-bottom: 10px;
+}
+
+.error {
+    font-size: 16px;
+    color: #bf2e2c;
+    font-weight: 700;
+} 
+
+@media (max-width: 800px) {
+
+}

@@ -1,0 +1,9 @@
+#signup-box {
+    height: 650px;
+}
+
+@media (max-width: 900px) {
+    #signup-box {
+        height: 800px;
+    }
+} 

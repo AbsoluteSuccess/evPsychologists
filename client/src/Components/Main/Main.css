@@ -1,0 +1,64 @@
+.main {
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    height: 500px;
+    background-color: white;
+    font-family: Nunito Sans;
+    padding: 30px;
+    margin: 50px auto;
+    border: 1px solid #dddce0;
+    border-radius: 2px;
+}
+
+.link-main {
+    text-decoration: none;
+    color: #3069f0;
+}
+
+#small-main {
+    height: 200px;
+}
+
+#no-token {
+    font-weight: bold;
+}
+
+.psychologist {
+    width: 60%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid #dddce0;
+    border-radius: 2px;
+}
+
+#navigate-main {
+    width: 150px;
+}
+
+.main-ave {
+    font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+}
+
+#li {
+    height: 170px;
+    padding: 0;
+}
+
+@media (max-width: 400px) {
+    .psychologist h3 {
+        font-size: medium;
+    }
+
+    .psychologist button {
+        font-size: small;
+    }   
+
+    #navigate-main {
+        width: 125px;
+    }
+}

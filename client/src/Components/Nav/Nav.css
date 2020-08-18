@@ -1,0 +1,105 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  color: rgb(85, 81, 114);
+  border-bottom: 3px solid #dddce0;
+  background-color: white;
+  width: 100%;
+}
+  
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.brand {
+  font-size: x-large;
+  font-family: Segoe Print, Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.link {
+  color: #141c3a;
+  text-decoration: none;
+}
+
+#signup-button {
+  width: 90px;
+  height: 40px;
+  background-color: #3069f0;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: medium;
+  border-radius: 2px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 25px;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #141c3a;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .brand {
+    left: 10px;
+    top: 20px;
+    font-size: larger;
+  }
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .nav-links.active {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .navbar.active1 {
+    height: 300px;
+  }
+
+  .nav-links li {
+    margin: 10px;
+  }
+
+  .nav-links ul {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.terms {
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+}
+
+.terms p,
+.terms li {
+    font-size: large;
+}
+
+.terms li {
+    width: 70%;
+}
+
+@media (max-width: 900px) {
+    .terms p,
+    .terms li {
+        font-size: medium;
+    }
+}
